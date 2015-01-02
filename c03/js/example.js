@@ -21,7 +21,7 @@ specialRate = document.getElementById('specialRate');
 
 hotelName.textContent = hotel.name; //writing to page elements
 roomRate.textContent = '$' + hotel.roomRate.toFixed(2);
-specialRate.textContent = '$ + hotel.offerPrice();
+specialRate.textContent = '$' + hotel.offerPrice();
 
 var expiryMsg;
 var today;
